@@ -1,0 +1,12 @@
+= About This Site
+Firstname Lastname <author@asciidoctor.org>
+3.0, July 29, 2022: AsciiDoc article template
+:toc:
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+//Variables
+:link_asciidoc: https://asciidoc.org/
+:link_asciidoctor: https://asciidoctor.org/
+
+This site was written with link:{link_asciidoc}[Asciidoc] and rendered to HTML using link:{link_asciidoctor}[AsciiDoctor].
+
