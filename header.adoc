@@ -1,0 +1,6 @@
+[.navbar]
+--
+* link:index[Home]
+* link:about[About Me]
+* link:site[Site Info]
+--
