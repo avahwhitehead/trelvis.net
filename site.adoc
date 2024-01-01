@@ -1,10 +1,10 @@
 = About This Site
 :icons: font
 //Variables*-/
-:link-asciidoc: https://asciidoc.org/
-:link-asciidoctor: https://asciidoctor.org/
+:url-asciidoc: https://asciidoc.org/
+:url-asciidoctor: https://asciidoctor.org/
 
 include::header.adoc[]
 
-This site was written with link:{link-asciidoc}[Asciidoc] and rendered to HTML using link:{link-asciidoctor}[AsciiDoctor].
+This site was written with link:{url-asciidoc}[Asciidoc] and rendered to HTML using link:{url-asciidoctor}[AsciiDoctor].
 

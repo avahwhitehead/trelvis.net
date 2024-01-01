@@ -1,7 +1,23 @@
-= About This Site
+= About Me
 :icons: font
-//Variables*-/
+//Variables
+:url-crm-uk: https://crm-uk.com/
+:url-sussex: https://www.sussex.ac.uk/
+:url-github: https://github.com/avahwhitehead
+:url-linkedin: https://www.linkedin.com/in/avahw/
 
 include::header.adoc[]
 
-Hi, I'm Avah!
+Hi, I'm Avah! (she/they)
+
+I'm a recent Computer Science graduate (BSc, 1st) from link:{url-sussex}[The University Of Sussex], currently working at link:{url-crm-uk}[CRM-UK] as a .NET/full stack developer.
+
+== Contact Me
+
+The best place to reach me is through link:{url-linkedin}[LinkedIn].
+Drop me a message and I'll get back to you asap.
+
+== Links
+
+* GitHub: {url-github}
+* LinkedIn: {url-linkedin}
