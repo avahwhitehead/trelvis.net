@@ -1,0 +1,32 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";
+@import "https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    #header {
+        flex-grow: 0;
+    }
+
+    #content {
+        flex-grow: 1;
+    }
+
+    #footer {
+        flex-grow: 0;
+    }
+}
+
+.navbar {
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul > li {
+        flex: 1;
+        display: block;
+    }
+}

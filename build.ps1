@@ -1,3 +1,16 @@
-asciidoctor -a stylesheet=styles.css -b html5 -D docs/ -R . *.adoc
+# Clean
+Remove-Item -ErrorAction Ignore -Recurse -Force docs/
+mkdir docs
 
-#asciidoctor-serve -a stylesheet=styles.css -b html5 -D docs/ -R . *.adoc --ignore notes.adoc
+# Compile Sass to CSS
+npx sass .:docs/
+
+# Compile Asciidoc to HTML
+asciidoctor -a stylesheet=docs/styles.css -b html5 -D docs/ -R . *.adoc
+
+# Include assets
+Copy-Item -Recurse assets/ docs/
+
+# Done
+Write-Output ""
+Write-Output "Done"

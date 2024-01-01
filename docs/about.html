@@ -8,27 +8,33 @@
 <title>About This Site</title>
 <style>
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";
-
 @import "https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css";
-
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body #header {
+  flex-grow: 0;
+}
+body #content {
+  flex-grow: 1;
+}
+body #footer {
+  flex-grow: 0;
+}
 
 .navbar ul {
-
   display: flex;
-
   flex-direction: row;
-
 }
-
-
-
 .navbar ul > li {
-
   flex: 1;
-
   display: block;
-
 }
+
+/*# sourceMappingURL=styles.css.map */
+
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -60,7 +66,7 @@
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-12-31 22:39:40 UTC
+Last updated 2023-12-31 22:41:19 UTC
 </div>
 </div>
 </body>
