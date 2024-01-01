@@ -3,5 +3,5 @@
 * link:index[Home]
 * link:about[About Me]
 * link:site[About the Site]
-* link:https://github.com/avahwhitehead/trelvis.net/[+++ <img src="assets/Github-Invertocat.png" alt="GitHub" title="View on GitHub" width="30" /> +++Source on GitHub]
+* link:https://github.com/avahwhitehead/trelvis.net/[+++ <img src="assets/GitHub-Invertocat.png" alt="GitHub" title="View on GitHub" width="30" /> +++Source on GitHub]
 --
